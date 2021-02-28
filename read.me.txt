@@ -1,3 +1,5 @@
+Antes de mais nada é necessário verificar se a instalação da ultima versão do Python, Peewee e Flask foram efetuadas corretamente.
+
 Para iniciar este sistema você deve:
 
 1 - Executar o arquivo model.py que irá criar o banco de dados do sistema.
