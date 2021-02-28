@@ -1,0 +1,9 @@
+Para iniciar este sistema você deve:
+
+1 - Executar o arquivo model.py que irá criar o banco de dados do sistema.
+
+2 - Executar em abas diferentes do terminal (Utilizei o GitBash por questões de maior compatibilidade) os arquivos servidor_frontend.py e servidor_backend.py. Estes iniciarão o sistema web fazendo da sua máquina o servidor web necessário para seu funcionamento.
+
+3 - No seu navegador de preferencia acessar a rota: http://localhost:4999 
+
+4 - Ler as instruções de uso do sistema que estão presentes no botão "Como utilizar este sistema?" que você terá acesso ao exeutar o passo anterior.
