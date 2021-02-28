@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/css/styles_listar_salas.css">
+    <title>Listagem de Salas</title>
+</head>
+
+<body>
+    
+    <center><h1>Primeiro Período:</h1></center>
+    <h3>Salas cadastradas:</h3>
+    {% for sala in salas: %}<p> <b>Nome da Sala:</b>{{ sala.nome }}
+     <br> <b>ID da Sala:</b>{{ sala.id }} 
+     <br> <b>Lotação Máxima:</b> {{ sala.lotacao_maxima }} 
+     <br> <b>Pessoas cadastradas para ficar no primeiro período nesta sala:</b> {{ sala.pessoas_na_sala }}<br><br><br></p>{% endfor %}
+    <br><br><br>
+
+
+    <center><h1>Intervalo:</h1></center>
+    <h3>Cafeterias cadastradas:</h3>
+    {% for cafeteria in cafeterias: %}<p> Nome da Cafeteria:{{ cafeteria.nome }}
+     <br> <b>ID da Cafeteria:</b>{{ cafeteria.id }} 
+     <br> <b>Pessoas cadastradas para lanchar nesta cafeteria: </b>{{ cafeteria.pessoas_na_sala }}<br><br><br></p>{% endfor %}<br>
+    
+
+     <center><h1>Segundo Período:</h1></center>
+    <h3>Salas cadastradas:</h3>
+    {% for sala in salas %}<p> <b>Nome da Sala:</b>{{ sala.nome }}
+     <br> <b>ID da Sala:</b>{{ sala.id }} 
+     <br> <b>Lotação Máxima:</b> {{ sala.lotacao_maxima }} 
+     <br> <b>Pessoas cadastradas para ficar no primeiro período nesta sala:</b> {{ sala.pessoas_na_sala }}<br><br><br></p>{% endfor %}
+    <br><br><br>
+
+
+    <h3>Todas as Pessoas cadastradas:</h3>
+    {% for pessoa in pessoas: %} Nome da Pessoa: {{ pessoa.nome }} | Sobrenome: {{ pessoa.sobrenome }}<br><br>{% endfor %}
+    <center><br><br><button><a href="http://localhost:4999">Voltar!</a></button></center>
+</body>
+</html>

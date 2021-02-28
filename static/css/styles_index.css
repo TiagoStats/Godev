@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(167, 167, 167);
+}
+
+h1{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    font-size: 60px;
+}
+
+a, button{
+    text-decoration-color: black;
+    color: black;
+    font-size: 35px;
+}

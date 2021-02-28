@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(167, 167, 167);
+}
+
+h3{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    font-size: 30px;
+    width: 500px;
+}
+
+a, button{
+    text-decoration-color: black;
+    color: black;
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+}
+form{
+    border-width: 2px;
+    border-style: dashed;
+    width: 300px;
+    height: 200px;
+}
